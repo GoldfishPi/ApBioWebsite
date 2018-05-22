@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bio Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light navbar-expand">
+        <a href="#" class="navbar-brand">Ap Biology</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Free Energy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../evolution/evolution.html">Evolution</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="jumbotron bg-grey">
+      <h1 class="display-3 content-center">Free Energy</h1>
+    </div>
+    <div class="container-fluid">
+      <h1>Oxidative Phosphororylation</h1>
+      <div class="row">
+        <div class="col-sm-6">
+            <h2>Basic</h2>
+            <hr>
+            <p>You like many organisms require oxygen to live. But have you ever wondered what your body does with all that oxygen?
+            </p>
+            <p>The reason your body needs all of this oxygen is so that your cells can use it during Oxidative Phosphororylation,
+              the last step in cellular respiration. Oxidative Phosphororylation is made up of two closely connected components: 
+              the electron transport chain and chemiosmosis. In the electron transport chain electrons are passed from one molecule
+              to another and electrochemical energy is released from this process. In chemiosmosis, the stored energy is used to 
+              make ATP.
+            </p>
+            <p>Oxygen fits into this picture by sitting at the end of the electron transport chain, where it accepts electrons 
+              and picks up protons to form water. If oxygen isn't present to accept electrons the electron transport chain will stop
+              running, and ATP will no longer be produced by chemiosmosis.
+            </p>
+          </div>
+        <div class="col-sm-6">
+          <h2>Advanced</h2>
+          <hr>
+          <h4>Electron Transport Chain</h4>
+          <img src="res/electron-transport-chain.gif" alt="Electron Transport Chain" class="img-fluid">
+          <ul>
+            <li>
+              Two electrons are passed from NADH into the NADH dehydrogenase complex. 
+              Coupled with this transfer is the pumping of one hydrogen ion for each electron</li>
+            <li>
+              The two electrons are transfered to ubiquinone. Ubiquinone
+              is called a mobile transfer molecule because it
+                moves the electrons to the cytochrome b-c1 complex.
+            </li>
+            <li>Each electron is then passed from the cytchrome b-c1 complex to cytochrome c. Cytochrome c accepts 
+              each electron one at a time. One hydrogen ion is pumped through the complex as each electron is transfered.</li>
+            <li>The next major step occurs in the cytochrome oxidase complex. This step requires four electrons. These four
+               electrons interact with a molecular oxygen molecule and eight hydrogen ions. The four electrons, four of the 
+               hydrogen ions, and the molecular oxygen,
+               are used to form two water molecules. The other four hydrogen ions are pumped across the membrane.</li>
+            <li>
+                The hydrogen pumping steps creates a gradient. The potential energy in this
+                 gradient is used by ATP synthase to form ATP from ADP and inorganic phosphate.</li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="content-center">Calvin Cycle</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Basic</h2>
+          <hr>
+          In plants Carbon dioxide enters the interior of the leaf through
+          via the stomata and diffuses into the stroma of the chloroplast--the 
+          site of the Calvin cycle reactions, where sugar is synthesized.In the calvin cycle,
+            carbon atoms from carbon dioxide are fixed and used to build three-carbon sugars. This process
+            is fueled by ATP and NADPH from the light reactions. Unlike the light reactions,
+          which take place in the thylakoid membrane, the reaction of the Calvin cycle takes place in the stroma. 
+        </div>
+        <div class="col-sm-6">
+            <h2>Advanced</h2>
+            <hr>
+            <p>The Calvin Cycle is divided into three different stages:
+               Carbon fixation, reduction and regeneration of the starting molecule. </p>
+               <ul>
+                 <li><h4>Carbon fixation</h4>
+                    A CO₂ molecule combines with a five-carbon acceptor molecule, ribulose-1,5-bisphosphate (RuBP). This creates a six-carbon compound which splits into two three-carbon compounds, 3-phosphoglyceric acid(3-PGA). This reaction catalyzes into 
+                  </li>
+                  <li>
+                      <h4>Reduction</h4>
+                      ATP and NADH are used to convert the 3-pga into molecules of three carbon sugar, glyceraldehyde-3-phosphate(G3P) . 
+                      This stage is called reduction because NADPH donates electrons to reduce three-carbon intermitent to make G3P.                    
+                  </li>
+                  <li>
+                      <H4>Regeneration</H4>
+                      Some G3P molecules make glucose while others must be recycled to regenerate the RuBP acceptor. 
+                  </li>
+               </ul>
+               <p>Three turns of the calvin cycle are needed to make one G3P that can 
+                 exit the cycle and go toward making glucose. </p>
+          </div>
+      </div>
+      <h1>Krebs Cycle</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Basic</h2>
+          <hr>
+          
+          <p>In eukaryotic organisms the krebs cycle takes place in the matrix of the mitochondria.
+              In prokaryotes it takes place in the cytoplasm. 
+             The krebs cycle is a closed loop, the last step creates a pathway to restart the cycle.
+              The cycle contains eight major steps. </p>
+           <p>First, acetyl CoA combines with a four-carbon acceptor molecule to form a six carbon molecule called citrate.
+              Then the six-carbon molecule releases two of its carbons carbon dioxide in a pair of similar reactions, producing 
+              a molecule of NADH each time. 
+             </p>
+             <img src="res/krebs_simple.png" alt="krebs cycle" class="img-fluid">
+           <p>The remaining four-carbon molecule goes under a series of reactions making an ATP molecule then reducing the 
+             electron carrier from FAD to FADH<sub>2</sub>, and finally regenerates another NADH</p>
+             <p>
+                Overall one turn of the Kreb cycle releases two carbon dioxide molecules and produces three NADH, one FADx2 and one ATP. 
+                The cycle goes around twice for every glucose molecule present in respiration. 
+             </p>
+        </div>
+        <div class="col-md-6">
+          <h2>Advanced</h2>
+          <hr>
+          
+          <ul>
+            <li>
+                In the first step of the citric acid cycle, acetyl CoAC, o, A joins with a four-carbon molecule, 
+                oxaloacetate, releasing the 
+                CoAC, o, A group and forming a six-carbon molecule called citrate.
+            </li>
+            <li>
+                In the second step, citrate is converted into its isomer, isocitrate. This is actually a two-step process, involving first the removal and then the addition of a water molecule, which is why the citric acid cycle is sometimes described as having nine steps—rather than the eight listed here^3 
+                3
+                 start superscript, 3, end superscript.
+            </li>
+            <li>
+                In the third step, isocitrate is oxidized and releases a molecule of carbon dioxide, leaving behind a five-carbon molecule—α-ketoglutarate. During this step, NAD 
+                <sup>+</sup>
+                 N, A, D, start superscript, plus, end superscript is reduced to form \text{NADH}NADHN, A, D, H. The enzyme catalyzing this step, isocitrate dehydrogenase, is important in regulating the speed of the citric acid cycle.
+            </li>
+            <img src="res/krebs_advanced.png" alt="Kresbs Cycle Advanced" class="img-fluid">
+            <li>
+                The fourth step is similar to the third. In this case, it’s α-ketoglutarate that’s oxidized, reducing NAD 
+                <sup>+</sup>
+                 N, A, D, start superscript, plus, end superscript to NADHN, A, D, H and releasing a molecule of carbon dioxide in the process. The remaining four-carbon molecule picks up Coenzyme A, forming the unstable compound succinyl CoAC, o, A. The enzyme catalyzing this step, α-ketoglutarate dehydrogenase, is also important in regulation of the citric acid cycle.
+            </li>
+            <li>In step five, the CoAC, o, A of succinyl CoAC, o, A is replaced by a phosphate group, which is then transferred to ADPA, D, P to make ATPA, T, P. In some cells, GDPG, D, P—guanine diphosphate—is used instead of ADPA, D, P, forming GTPG, T, P—guanine triphosphate—as a product. The four-carbon molecule produced in this step is called succinate. </li>
+            <li> In step six, succinate is oxidized, forming another four-carbon molecule called fumarate. In this reaction, two hydrogen atoms—with their electrons—are transferred to FADF, A, D, producing 2FADH 
+                2
+                ​	 F, A, D, H, start subscript, 2, end subscript. The enzyme that carries out this step is embedded in the inner membrane of the mitochondrion, so 2FADH 
+                2
+                ​	 F, A, D, H, start subscript, 2, end subscript can transfer its electrons directly into the electron transport chain. </li>
+            <li> In step seven, water is added to the four-carbon molecule fumarate, converting it into another four-carbon molecule called malate.</li>
+            <li>In the last step of the citric acid cycle, oxaloacetate—the starting four-carbon compound—is regenerated by oxidation of malate. Another molecule of NAD 
+                <sup>+</sup>
+                 N, A, D, start superscript, plus, end superscript is reduced to NADHN, A, D, H in the process.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
